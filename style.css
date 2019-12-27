@@ -1,0 +1,58 @@
+body {
+    background: #161616;
+    color: #bdbdbd;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Andale Mono, monospace;
+}
+
+img {
+    width: 56px;
+    height: 48px;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 26px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    margin: 20px 0;
+}
+
+select {
+    padding: 5px;
+}
+
+#price {
+    font-size: 16px;
+    height: 24px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#messageNotValid {
+    margin: 5px 0 0 18px;
+    color: red;
+    font-size: 12px;
+}
+
+#messageTooLong {
+    margin: 5px 0 0 -10px;
+    color: darkgreen;
+    font-size: 12px;
+}
+
+
+button {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: chartreuse;
+}
