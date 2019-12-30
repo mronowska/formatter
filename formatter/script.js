@@ -7,13 +7,14 @@ let maxLenght = 10;
 let enterPressed = false;
 
 function limit(element) {
-    if (element.value.length >= maxLenght) {
+    if (element.value.length > maxLenght) {
         element.value = element.value.substr(0, maxLenght);
         messageTooLong.textContent = `Maximum length is ${maxLenght} numbers.` ;
     }
 }
 
 function separator(element) {
+    
     let indexOfSeparator = element.indexOf(",");
     if (indexOfSeparator != -1) {
         return indexOfSeparator;
